@@ -22,4 +22,7 @@ export class AppComponent  {
 
 
   ChangeDiv1Color(){
-    this.div1Color = this.div1Color
+    this.div1Color = this.div1Color =='red' ? 'green' : 'red';
+
+  }
+}
